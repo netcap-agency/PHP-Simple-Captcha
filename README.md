@@ -29,7 +29,6 @@ $value = $_SESSION['captcha']['code'];
 
 To display the captcha image :
 ```php
-<?php
 <img src="<?php echo $_SESSION['captcha']['image']; ?>" />
 ```
 _The displayed image is base64 encoded_
